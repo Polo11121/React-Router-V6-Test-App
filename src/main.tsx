@@ -15,15 +15,14 @@ import {
   NotFound,
   CareerDetails,
   CareersError,
-} from "pages";
+} from "./pages";
 import {
   RootLayout,
   HelpLayout,
   CareersLayout,
   ProtectedRoutes,
-} from "components";
-import { contact, getCareer, getCareers } from "api";
-
+} from "./components";
+import { contact, getCareer, getCareers } from "./api";
 import "./index.css";
 
 const router = createBrowserRouter(
